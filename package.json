@@ -1,5 +1,5 @@
 {
-  "name": "hydra-express",
+  "name": "gl-hydra-express",
   "version": "1.6.9",
   "description": "A module which wraps Hydra and ExpressJS to provide an out of the box microservice which can support API routes and handlers.",
   "author": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flywheelsports/hydra-express.git"
+    "url": "git+https://github.com/zerefel/gl-hydra-express.git"
   },
   "bin": {
     "hydra-express": "index.js"
@@ -28,7 +28,7 @@
     "debug": "3.1.0",
     "express": "4.16.3",
     "helmet": "3.12.0",
-    "hydra": "1.6.8",
+    "gl-hydra": "1.6.8",
     "moment": "2.21.0",
     "response-time": "2.3.2"
   },
