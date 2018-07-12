@@ -5,7 +5,7 @@
 */
 'use strict';
 
-const debug = require('debug')('hydra-express');
+const debug = require('debug')('gl-hydra-express');
 
 const Promise = require('bluebird');
 Promise.config({
@@ -22,7 +22,7 @@ Promise.series = (iterable, action) => {
   );
 };
 
-const hydra = require('hydra');
+const hydra = require('gl-hydra');
 const Utils = hydra.getUtilsHelper();
 const ServerResponse = hydra.getServerResponseHelper();
 let serverResponse = new ServerResponse();
